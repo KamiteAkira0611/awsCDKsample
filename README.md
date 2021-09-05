@@ -1,5 +1,8 @@
 # awsCDKsample
 
+公式チュートリアル
+https://cdkworkshop.com/20-typescript/20-create-project.html
+
 ## 事前準備
 
 ```
