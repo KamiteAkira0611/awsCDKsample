@@ -1,5 +1,8 @@
 FROM python:latest
 
+COPY ./infra /app
+WORKDIR /app
+
 # install the latest nodejs & npm
 RUN apt update \
     && apt install -y nodejs npm \

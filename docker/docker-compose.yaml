@@ -9,4 +9,6 @@ services:
     container_name: awscdksample-infra
     env_file:
       - ./infra/.env
+    volumes:
+      - ../infra/:/app
     tty: true
