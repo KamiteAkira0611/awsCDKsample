@@ -14,10 +14,10 @@ $ cp ./docker/infra/.env.sample ./docker/infra/.env
 ## start
 
 ```
-$ docker compose up
+$ docker compose up -d
 ```
 
-`docker compose exec infra bash`にて作業
+以降`docker compose exec infra bash`にて作業
 
 ### 各種確認
 
