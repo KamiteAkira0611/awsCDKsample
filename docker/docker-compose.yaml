@@ -1,0 +1,12 @@
+version: "2.4"
+services:
+  infra:
+    build:
+      context: ../
+      dockerfile: ./docker/infra/Dockerfile
+    platform: linux/amd64
+    image: awscdksample-infra
+    container_name: awscdksample-infra
+    env_file:
+      - ./infra/.env
+    tty: true
