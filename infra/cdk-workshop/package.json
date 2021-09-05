@@ -1,8 +1,8 @@
 {
-  "name": "app",
+  "name": "cdk-workshop",
   "version": "0.1.0",
   "bin": {
-    "app": "bin/app.js"
+    "cdk-workshop": "bin/cdk-workshop.js"
   },
   "scripts": {
     "build": "tsc",
