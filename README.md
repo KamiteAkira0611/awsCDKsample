@@ -1,5 +1,8 @@
 # awsCDKsample
 
+公式チュートリアル
+https://cdkworkshop.com/20-typescript/20-create-project.html
+
 ## 事前準備
 
 ```
@@ -10,9 +13,13 @@ $ cp ./docker/infra/.env.sample ./docker/infra/.env
 
 ## start
 
+`cd docker`ディレクトリを移動してください
+
 ```
-$ docker compose up
+$ docker compose up -d
 ```
+
+以降`docker compose exec infra bash`にて作業
 
 ### 各種確認
 
